@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #4d4854;
+  background-color: #fff
+}
+
+header.logo-area {
+  font-size: 16px;
+  height: 80px;
+  //background-color: #f8f8f8;
+
+  .zf-logo {
+    padding-right: 40px;
+
+    .logo-img {
+      background-color: #f3f3f3;
+      width: 150px;
+      height: 50px;
+      font-size: 12px;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .zf-top-search {
+    form {
+      padding: 0 20%;
+
+      .search-input {
+        border: 1px solid #ececec;
+        padding: 10px 10px;
+        line-height: 20px;
+        font-size: 16px;
+
+        &:focus {
+          border: 1px solid red;
+        }
+      }
+
+      .search-btn {
+        width: 80px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #ff4545;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .zficon {
+          font-size: 26px;
+        }
+
+        &:hover {
+          background-color: #ca0000;
+        }
+      }
+    }
+
+  }
+
+  .links-list-wrap {
+    .links {
+      list-style: none;
+      margin: 0;
+      line-height: 20px;
+
+      .link {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #efefef;
+
+        a {
+          color: #777;
+          display: block;
+          line-height: 100%;
+
+          .zficon {
+            font-size: 30px;
+            line-height: 26px;
+          }
+
+          .login {
+            background-color: #f2f3f5;
+            padding: 5px 10px;
+            border-radius: 5px;
+          }
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav-bg {
+  background-color: #cf0000;
+  height: 45px;
+
+  a {
+    color: #ffffff;
+    line-height: 45px;
+    display: block;
+    padding: 0 35px;
+
+    &.active {
+      color: #ffffff;
+      background-color: #001f51;
+    }
+  }
+
+}
+
+//index
+.top-area {
+  padding: 25px 0;
+
+  .carousel {
+    background-color: #d3d9df;
+    height: 350px;
+  }
+
+  .card-news{
+
+  }
+}

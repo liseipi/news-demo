@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "zficon";
+    /*src: url('../fonts/zficonfont.ttf') format('truetype');*/
+    src: url('//at.alicdn.com/t/font_1037780_hz7ygwsp4u5.ttf') format('truetype');
+}
+
+.zficon {
+    font-family: "zficon" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zf-weibo:before {
+    content: "\e61f";
+}
+
+.zf-weixin:before {
+    content: "\e66c";
+}
