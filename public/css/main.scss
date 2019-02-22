@@ -127,7 +127,25 @@ header.logo-area {
     height: 350px;
   }
 
-  .card-news{
+  .card-news {
+    & > .row {
+      margin: 0 -5px;
 
+      & > [class*=col] {
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+.focus-area {
+  .focus-body {
+    .row {
+      margin: 0 -10px;
+
+      & > [class*=col] {
+        padding: 0 10px;
+      }
+    }
   }
 }
