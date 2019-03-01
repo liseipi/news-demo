@@ -28,3 +28,22 @@
     }
   }
 }
+
+.hot-search-item {
+  .ranking-news {
+    li {
+      line-height: 30px;
+
+      .ranking-num {
+        color: #000;
+        font-size: 18px;
+        display: inline-block;
+        margin-right: 8px;
+      }
+
+      &:nth-child(-n+3) > .ranking-num {
+        color: red;
+      }
+    }
+  }
+}

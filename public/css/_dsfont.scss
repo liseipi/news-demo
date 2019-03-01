@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "dsfont";
+  src: url("../fonts/dsfont.ttf") format("truetype");
+}
+
+.dsfont {
+  font-family: "dsfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
