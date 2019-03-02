@@ -1,13 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #4d4854;
-  background-color: #fff
-}
-
 header.logo-area {
   font-size: 16px;
   height: 80px;
@@ -45,7 +35,7 @@ header.logo-area {
         width: 80px;
         text-align: center;
         color: #ffffff;
-        background-color: #ff4545;
+        background-color: primaryColor();
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,7 +46,7 @@ header.logo-area {
         }
 
         &:hover {
-          background-color: #ca0000;
+          background-color: primaryActionColor();
         }
       }
     }
@@ -101,7 +91,7 @@ header.logo-area {
 }
 
 .nav-bg {
-  background-color: #cf0000;
+  background-color: primaryColor();
   height: 45px;
 
   a {
@@ -112,40 +102,8 @@ header.logo-area {
 
     &.active {
       color: #ffffff;
-      background-color: #001f51;
+      background-color: primaryActionColor();
     }
   }
 
-}
-
-//index
-.top-area {
-  padding: 25px 0;
-
-  .carousel {
-    background-color: #d3d9df;
-    height: 350px;
-  }
-
-  .card-news {
-    & > .row {
-      margin: 0 -5px;
-
-      & > [class*=col] {
-        padding: 0 5px;
-      }
-    }
-  }
-}
-
-.focus-area {
-  .focus-body {
-    .row {
-      margin: 0 -10px;
-
-      & > [class*=col] {
-        padding: 0 10px;
-      }
-    }
-  }
 }

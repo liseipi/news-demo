@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #4d4854;
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+@font-face {
+  font-family: "dsfont";
+  src: url("../fonts/dsfont.ttf") format("truetype"); }
+.dsfont {
+  font-family: "dsfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+header.logo-area {
+  font-size: 16px;
+  height: 80px; }
+  header.logo-area .zf-logo {
+    padding-right: 40px; }
+    header.logo-area .zf-logo .logo-img {
+      background-color: #f3f3f3;
+      width: 150px;
+      height: 50px;
+      font-size: 12px;
+      display: inline-block;
+      vertical-align: top; }
+  header.logo-area .zf-top-search form {
+    padding: 0 20%; }
+    header.logo-area .zf-top-search form .search-input {
+      border: 1px solid #ececec;
+      padding: 10px 10px;
+      line-height: 20px;
+      font-size: 16px; }
+      header.logo-area .zf-top-search form .search-input:focus {
+        border: 1px solid red; }
+    header.logo-area .zf-top-search form .search-btn {
+      width: 80px;
+      text-align: center;
+      color: #ffffff;
+      background-color: #ca0000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      header.logo-area .zf-top-search form .search-btn .zficon {
+        font-size: 26px; }
+      header.logo-area .zf-top-search form .search-btn:hover {
+        background-color: #ff4545; }
+  header.logo-area .links-list-wrap .links {
+    list-style: none;
+    margin: 0;
+    line-height: 20px; }
+    header.logo-area .links-list-wrap .links .link {
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      border-left: 1px solid #efefef; }
+      header.logo-area .links-list-wrap .links .link a {
+        color: #777;
+        display: block;
+        line-height: 100%; }
+        header.logo-area .links-list-wrap .links .link a .zficon {
+          font-size: 30px;
+          line-height: 26px; }
+        header.logo-area .links-list-wrap .links .link a .login {
+          background-color: #f2f3f5;
+          padding: 5px 10px;
+          border-radius: 5px; }
+        header.logo-area .links-list-wrap .links .link a:hover {
+          text-decoration: none; }
+
+.nav-bg {
+  background-color: #ca0000;
+  height: 45px; }
+  .nav-bg a {
+    color: #ffffff;
+    line-height: 45px;
+    display: block;
+    padding: 0 35px; }
+    .nav-bg a.active {
+      color: #ffffff;
+      background-color: #ff4545; }
+
+.top-area {
+  padding: 25px 0; }
+  .top-area .carousel {
+    background-color: #d3d9df;
+    height: 350px; }
+  .top-area .card-news > .row {
+    margin: 0 -5px; }
+    .top-area .card-news > .row > [class*=col] {
+      padding: 0 5px; }
+
+.focus-area .focus-body .row {
+  margin: 0 -10px; }
+  .focus-area .focus-body .row > [class*=col] {
+    padding: 0 10px; }
+
+.hot-search-item .ranking-news li {
+  line-height: 30px; }
+  .hot-search-item .ranking-news li .ranking-num {
+    color: #000;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 8px; }
+  .hot-search-item .ranking-news li:nth-child(-n+3) > .ranking-num {
+    color: red; }
+
+.visual-area {
+  margin: 0 -5px; }
+  .visual-area > [class*=col] {
+    padding: 0 5px; }
+
+/*# sourceMappingURL=app.css.map */
