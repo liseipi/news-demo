@@ -107,7 +107,7 @@ header.logo-area {
     padding: 0 10px; }
 
 .hot-search-item .ranking-news li {
-  line-height: 30px; }
+  line-height: 31px; }
   .hot-search-item .ranking-news li .ranking-num {
     color: #000;
     font-size: 18px;
@@ -120,5 +120,13 @@ header.logo-area {
   margin: 0 -5px; }
   .visual-area > [class*=col] {
     padding: 0 5px; }
+
+.news-txt-item {
+  line-height: 34px; }
+  .news-txt-item ul {
+    margin-bottom: 0.5rem; }
+    .news-txt-item ul li:first-child {
+      font-size: 1.1rem;
+      font-weight: 700; }
 
 /*# sourceMappingURL=app.css.map */
