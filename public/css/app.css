@@ -91,6 +91,18 @@ header.logo-area {
       color: #ffffff;
       background-color: #ff4545; }
 
+.zf-footer {
+  margin: 4rem 0; }
+  .zf-footer .nav {
+    background-color: #f2f2f2; }
+  .zf-footer .icp-txt {
+    line-height: 2; }
+  .zf-footer .footer-ide a {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 12px; }
+
 .top-area {
   padding: 25px 0; }
   .top-area .carousel {
